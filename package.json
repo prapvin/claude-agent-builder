@@ -1,0 +1,13 @@
+{
+  "name": "sites-worker-esm-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "validate": "node scripts/validate-artifact.mjs",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
